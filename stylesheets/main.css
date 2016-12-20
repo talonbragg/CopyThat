@@ -60,12 +60,12 @@ code {
 }
 .github {
    background-size: 60px 60px;
-   border-radius: 50;
+   border-radius: 50px;
    width: 100px;
    height: 100px;
 }
 .github:hover {
   background-color: white;
-  border-radius: 50;
-  background-size: 75px 75px;
+  border-radius: 50px;
+  background-size: 50px 50px;
 }
