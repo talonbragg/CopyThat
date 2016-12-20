@@ -30,7 +30,7 @@ ul {
     background-color: #333;
     position: fixed;
     max-width: 300px;
-    height: 70px;
+    height: 100px;
 }
 
 li {
@@ -41,7 +41,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
