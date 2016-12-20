@@ -58,3 +58,6 @@ code {
 #code {
   text-align: left;
 }
+.github:hover {
+  background-color: white;
+}
