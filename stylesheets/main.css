@@ -59,7 +59,7 @@ code {
   text-align: left;
 }
 .github {
-   background-size: 75px 75px;
+   background-size: 60px 60px;
    border-radius: 50;
    width: 100px;
    height: 100px;
@@ -67,4 +67,5 @@ code {
 .github:hover {
   background-color: white;
   border-radius: 50;
+  background-size: 75px 75px;
 }
