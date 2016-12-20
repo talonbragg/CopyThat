@@ -13,8 +13,13 @@ p {
   font-size: 25px;
 }
 #section {
-  padding: 130px;
+  padding: 170px;
   background-color: #28dcf8;
+}
+footer {
+  padding: 60px;
+  color: white;
+  background-color: #333333;
 }
 ul {
     list-style-type: none;
