@@ -19,7 +19,7 @@ selectText = function (element) {
         try {
           var copied = document.execCommand('copy');
           var msg = copied ? 'successful.' : 'unsuccessful.';
-          alert('Color copy ' + msg);
+          alert('Copy' + msg);
         } catch (err) {
           console.log('Unable to copy on this browser.');
         }            
