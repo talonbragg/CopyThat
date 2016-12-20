@@ -3,7 +3,6 @@ html, body {
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
-  float: left;
   max-width: 300px;
   height: 300px;
   text-align: center;
@@ -14,4 +13,8 @@ h1 {
 }
 p {
   font-size: 25px;
+}
+#section {
+  padding: 80px;
+  background-color: #28dcf8;
 }
