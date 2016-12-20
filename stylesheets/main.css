@@ -60,5 +60,7 @@ code {
 }
 .github:hover {
   background-color: white;
-  border-radius: 40px;
+  border-radius: 32.5px;
+  width: 75px;
+  height: 75px;
 }
