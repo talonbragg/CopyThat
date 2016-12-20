@@ -58,9 +58,12 @@ code {
 #code {
   text-align: left;
 }
+.github {
+   background-size: 75px 75px;
+   border-radius: 50;
+   width: 100px;
+   height: 100px;
+}
 .github:hover {
   background-color: white;
-  border-radius: 32.5px;
-  width: 75px;
-  height: 75px;
 }
