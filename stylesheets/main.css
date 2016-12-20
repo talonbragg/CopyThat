@@ -48,5 +48,7 @@ li a:hover {
     background-color: #111;
 }
 code {
-  background-color: gray;
+  background-color: #DCDCDC;
+  font-size: 12px;
+  border-radius: 2px;
 }
