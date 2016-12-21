@@ -71,6 +71,7 @@ code {
 }
 table, td {
     border: 1px solid black;
+    background-color: white;
 }
 td {
 	float: center;
