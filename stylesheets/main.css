@@ -69,3 +69,9 @@ code {
   border-radius: 50px;
   background-size: 45px 45px;
 }
+table, td {
+    border: 1px solid black;
+}
+td {
+	float: center;
+}
