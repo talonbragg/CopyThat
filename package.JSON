@@ -1,0 +1,25 @@
+{
+  "name": "copythat",
+  "version": "1.0.0",
+  "description": "A simple way to copy an element with Javascript",
+  "main": "C:\\Users\\talon\\Desktop\\copythat.js",
+  "dependencies": {
+    "clipboard": "^1.5.15",
+    "file-saver": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/talonbragg/CopyThat.git)"
+  },
+  "author": "Talon Bragg <pvpgamecrash@gmail.com> (https://copythat.ml)",
+  "license": "ISC",
+  "keywords": [
+    "copy",
+    "copythat",
+    "that"
+  ]
+}
