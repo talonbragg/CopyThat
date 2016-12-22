@@ -4,7 +4,7 @@ A simple Javascript Distribution To Copy A Div On Click
 # Usage
 Link: `<script src="https://copythat.ml/dist/main.js"></script>` *recommended
 
-NPM (Node Package Manager): `npm install copythat` *not recommened 
+NPM (Node Package Manager): `npm install copythat`
 
 # Why Use it?
 
