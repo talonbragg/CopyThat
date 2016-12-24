@@ -7,7 +7,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="stylesheets/assets/CTHAT.png">
     <script src="smoothscroll.js"></script>
-    <script src="JS/index.js"></script>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -32,7 +31,9 @@
     </style>
 </head>
 
-<body>
+<body onload="myFunction()">
+  <div id="loader">
+    <div id="content">  
     <a href="https://github.com/talonbragg/CopyThat"><img src="https://kabir.ml/img/github.svg" class="github" width="100px" height="100px" style="top:0px;right:0px;position:fixed;">
     </a>
     <ul>
@@ -111,6 +112,8 @@
         <p style="text-align:center;">©opyright Talon Bragg 2016</p>
     </footer>
     <script src="dist/main.js"></script>
-</body>
+    <script src="JS/index.js"></script>
+    </div>
+  </body>
 
 </html>
