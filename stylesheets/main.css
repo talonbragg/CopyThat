@@ -70,6 +70,8 @@ code {
   background-color: white;
   border-radius: 50px;
   background-size: 45px 45px;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
 table, td {
     border: 1px solid black;
