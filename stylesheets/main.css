@@ -82,7 +82,7 @@ table, td {
   position: absolute;
   left: 50%;
   top: 50%;
-  z-index: 1;
+  z-index: 0;
   margin: -75px 0 0 -75px;
   border-top: 16px solid #3498db;
   border-bottom: 16px solid green;
