@@ -22,3 +22,10 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$(document).ready(function() {
+  var $toggleButton = $('.toggle-button');
+  $toggleButton.on('click', function() {
+    $(this).toggleClass('button-open');
+  });
+});
