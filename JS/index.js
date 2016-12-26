@@ -9,12 +9,12 @@ function showPage() {
   document.getElementById("content").style.display = "block";
 }
 var closeIcon = document.getElementById('navBtn');
-function openNav() {
+function openNav(e) {
             document.getElementById("mySidenav").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
             document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
             if(document.getElementById('mySidenav').style.width === "250px") {
-                function close(e) {
+                function close() {
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft = "0";
                     document.body.style.backgroundColor = "white";
@@ -22,7 +22,7 @@ function openNav() {
                    
                }
             else if (document.getElementById.style.width === "0") {
-                function open(e) {
+                function open() {
                     document.getElementById("mySidenav").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
                     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
