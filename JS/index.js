@@ -14,19 +14,12 @@ function openNav(e) {
             document.getElementById("main").style.marginLeft = "250px";
             document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
             if(document.getElementById('mySidenav').style.width === "250px") {
-                function close() {
+                function close(e) {
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft = "0";
                     document.body.style.backgroundColor = "white";
                 }
-                   
-               }
-            else if (document.getElementById.style.width === "0") {
-                function open() {
-                    document.getElementById("mySidenav").style.width = "250px";
-                    document.getElementById("main").style.marginLeft = "250px";
-                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-                }
+                   closeIcon.addEventListener('click', close);
             }
         }
         closeIcon.addEventListener('click', openNav);
