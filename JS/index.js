@@ -21,7 +21,7 @@ function openNav() {
                 }
                     closeIcon.addEventListener('click', close);
                }
-            else {
+            else if (document.getElementById.style.width === "0") {
                 function open(e) {
                     document.getElementById("mySidenav").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
