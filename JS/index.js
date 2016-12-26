@@ -21,6 +21,14 @@ function openNav() {
                 }
                     closeIcon.addEventListener('click', close);
                }
+            else {
+                function open(e) {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                }
+                closeIcon.addEventListener('click', open);
+            }
         }
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
