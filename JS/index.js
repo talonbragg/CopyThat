@@ -19,7 +19,7 @@ function openNav() {
                     document.getElementById("main").style.marginLeft = "0";
                     document.body.style.backgroundColor = "white";
                 }
-                    closeIcon.addEventListener('click', close);
+                   
                }
             else if (document.getElementById.style.width === "0") {
                 function open(e) {
@@ -27,9 +27,9 @@ function openNav() {
                     document.getElementById("main").style.marginLeft = "250px";
                     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
                 }
-                closeIcon.addEventListener('click', open);
             }
         }
+        closeIcon.addEventListener('click', openNav);
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
