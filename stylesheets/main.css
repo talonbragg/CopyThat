@@ -211,4 +211,15 @@ table, td {
                 font-size: 18px;
             }
         }
-
+#section2 {
+  padding: 100px;
+  background-color:#1B1D1E;
+  color: #f5f5f5;
+}
+#section2 a{
+  text-decoration: underline;
+  font-family: 'Lato';
+}
+#section2 a:hover{
+  color: #28dcf8;
+}
