@@ -10,18 +10,13 @@ function showPage() {
 }
 var closeIcon = document.getElementById('navBtn');
 function openNav(e) {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-            if(document.getElementById('mySidenav').style.width === "250px") {
+            if(document.getElementById('mySidenav').style.width === "0") {
+                    document.getElementById("mySidenav").style.width = "250px"; document.getElementById("main").style.marginLeft = "250px"; document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                }
+            else if(document.getElementById('mySidenav').style.width === "0") {
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft = "0";
                     document.body.style.backgroundColor = "white";
-                }
-            else {
-                document.getElementById("mySidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
             }
             }
         closeIcon.addEventListener('click', openNav);
