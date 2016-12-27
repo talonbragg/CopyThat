@@ -24,7 +24,6 @@ function openNav(e) {
                 document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
             }
             }
-        }
         closeIcon.addEventListener('click', openNav);
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
