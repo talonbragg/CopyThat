@@ -10,7 +10,8 @@ function showPage() {
   document.getElementById("content").style.display = "block";
 }
 function openNav() {
-            if(document.getElementById('mySidenav').style.width === "0") {
+     document.getElementById("mySidenav").style.width = "250px"; document.getElementById("main").style.marginLeft = "250px"; document.body.style.backgroundColor = "rgba(0,0,0,0.4)";        
+    if(document.getElementById('mySidenav').style.width === "0") {
                     document.getElementById("mySidenav").style.width = "250px"; document.getElementById("main").style.marginLeft = "250px"; document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
                 }
             else if(document.getElementById('mySidenav').style.width === "250px") {
