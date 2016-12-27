@@ -220,6 +220,7 @@ table, td {
   text-decoration: underline;
   font-family: 'Lato';
   font-size: 30px;
+  color: #f5f5f5;
 }
 #section2 a:hover{
   color: #28dcf8;
