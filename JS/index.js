@@ -11,7 +11,7 @@ function showPage() {
 var closeIcon = document.getElementById('navBtn');
 function openNav(e) {
             if(document.getElementById('mySidenav').style.width === "0") {
-                    document.getElementById("mySidenav").style.width = "250px"; document.getElementById("main").style.marginLeft = "250px"; document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                    document.getElementById("mySidenav").style.width = "250px"; document.getElementById("main").style.marginLeft = "250px"; document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
                 }
             else if(document.getElementById('mySidenav').style.width === "0") {
                     document.getElementById("mySidenav").style.width = "0";
