@@ -9,8 +9,7 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("content").style.display = "block";
 }
-function openNav() {
-     document.getElementById("mySidenav").style.width = "250px"; document.getElementById("main").style.marginLeft = "250px"; document.body.style.backgroundColor = "rgba(0,0,0,0.4)";        
+function openNav() {  
     if(document.getElementById('mySidenav').style.width === "0") {
                     document.getElementById("mySidenav").style.width = "250px"; document.getElementById("main").style.marginLeft = "250px"; document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
                 }
