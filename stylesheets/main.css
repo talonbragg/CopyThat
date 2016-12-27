@@ -219,7 +219,14 @@ table, td {
 #section2 a{
   text-decoration: underline;
   font-family: 'Lato';
+  font-size: 30px;
 }
 #section2 a:hover{
   color: #28dcf8;
+}
+#section2 p{
+  font-family: 'Quicksand';
+}
+#section2 h1{
+  font-family: 'Lato';
 }
