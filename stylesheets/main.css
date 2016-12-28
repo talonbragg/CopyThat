@@ -14,7 +14,7 @@ p {
   font-size: 25px;
 }
 #section {
-  height: 100%;
+  padding: 120px;
   background-color: #28dcf8;
 }
 footer {
@@ -212,7 +212,7 @@ table, td {
             }
         }
 #section2 {
-  height: 100%;
+  padding: 150px;
   background-color:#1B1D1E;
   color: #f5f5f5;
 }
