@@ -34,9 +34,10 @@
     
     <div id="main">
     <div id="content" style="display:none;" class="animate-bottom">  
-    <div class="sidenav" id="mySidenav">
-        <a href="#section2">Websites</a>
-    </div>
+        <div class="sidenav" id="mySidenav">
+            <a href="#top">Top</a>
+            <a href="#section2">Websites</a>
+        </div>
      <span class="toggle-button" style="text-align:left;float:center;left:50%;top:2%;" onclick="openNav()" id="navBtn">
      <div class="menu-bar menu-bar-top"></div>
      <div class="menu-bar menu-bar-middle"></div>
@@ -50,7 +51,7 @@
             </a>
         </li>
     </ul>
-    <h1 style="text-align:center;background-color:#00BFFF;padding:230px;margin-bottom:0px;"><img src="stylesheets/assets/CTHAT.png">opy That <br><br><br> <a href="#section" style="padding:30px;background-color:gray;color:white;border-radius:4px;font-size:18px;text-decoration:none;">Check It Out</a></h1>
+    <h1 id="top" style="text-align:center;background-color:#00BFFF;padding:230px;margin-bottom:0px;"><img src="stylesheets/assets/CTHAT.png">opy That <br><br><br> <a href="#section" style="padding:30px;background-color:gray;color:white;border-radius:4px;font-size:18px;text-decoration:none;">Check It Out</a></h1>
     <div id="section" class="section" style="margin-top:0px;">
         <p><strong>Copy That</strong> allows you to click on any text and copy it to your clipboard.</p>
         <h2>Ex:</h2>
@@ -62,7 +63,7 @@
             <h2>Usage</h2>
             <span><span><p>At the very bottom of your</p></span><span><code id="copy">&lt;body&gt;</code></span><span><p>tag in your HTML, put this code:</p></span><span><code id="copy">&lt;script src="http://copythat.ml/dist/main.js"&gt;&lt;/script&gt;</code></span></span>
             <p>Now all you need to do is give your tag that you want to copy, an id attribute, like this:</p>
-            <code id="copy">&lt;p <b>id="copy</b>"&gt;Copy This Text With a Click&lt;/p&gt;</code>
+            <code id="copy">&lt;p <b>id="copy</b>"&gt;Copy This Text With a Click&lt;/p&gt;</code>
             <hr>
             <h2>Node Package Manager Install</h2>
             <code>npm install copythat</code>
