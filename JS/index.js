@@ -14,6 +14,7 @@ function openNav() {
     if(open) {
         open = false;
                     document.getElementById("mySidenav").style.width = "0";
+                    $('#navLink').slideIn('slow');
                     document.body.style.backgroundColor = "white";
             }
     else {
