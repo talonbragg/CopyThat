@@ -34,4 +34,15 @@ function openNav() {
         }
 window.onblur = function () { document.title = 'Please Come Back!'; }
 window.onfocus = function () { document.title = 'Copy That'; }
-
+// smooth scroll
+var myAnchors = document.getElementsByTagName('a'),
+    a = myAnchors.length,
+    href;
+while (a--) {
+    href = myAnchors[a].getAttribute('href');
+}
+if ((/#/).test(href), href) {
+    document.getElementsByTagName('a').onclick = function() {
+        window.scrollTo(href);
+    };
+}
