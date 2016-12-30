@@ -201,7 +201,7 @@ table, td {
             margin-left: 50px;
         }
         #main {
-            transition: margin-left .5s;
+            transition: margin-left 1s;
         }
         @media screen and (max-height: 450px) {
             .sidenav {
