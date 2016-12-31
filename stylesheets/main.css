@@ -180,7 +180,6 @@ table, td {
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
-            border: 1px 1px 1px 0px solid #f5f5f5;
         }
         .sidenav a {
             padding: 8px 8px 8px 32px;
