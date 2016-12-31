@@ -234,3 +234,17 @@ table, td {
 #section2 h1{
   font-family: 'Lato';
 }
+
+#emailMe-module {
+  z-index: 2px;
+  background-color: #1B1D1E;
+  color: #f5f5f5;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transition: display 1s;
+  width: 0px;
+  height: 0px;
+  transition: width 1s;
+  transition: height 1s;
+}
