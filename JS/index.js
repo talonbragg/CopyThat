@@ -56,6 +56,13 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+var mail = document.getElementById('mailIcon');
+
+mail.onclick = function() {
+    document.location.href = "mailto:pvpgamecrash@gmail.com?Subject=CopyThat";
+};
+
 window.onblur = function () { document.title = 'Please Come Back!'; }
 window.onfocus = function () { document.title = 'Copy That'; }
 // smooth scroll
