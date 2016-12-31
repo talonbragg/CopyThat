@@ -32,6 +32,12 @@ function openNav() {
             document.getElementById("main").style.marginLeft = "0";
             document.body.style.backgroundColor = "white";
         }
+    function openModule() {
+        var module = document.getElementById('emailMe-module');
+        module.style.display('block');
+        module.style.width('400px');
+        module.style.height('400px');
+    }
 window.onblur = function () { document.title = 'Please Come Back!'; }
 window.onfocus = function () { document.title = 'Copy That'; }
 // smooth scroll
