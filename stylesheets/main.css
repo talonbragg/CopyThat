@@ -253,7 +253,9 @@ table, td {
 }
 
 /* Modal */
-
+.modal {
+  transition: display 0.5s;
+}
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
