@@ -34,9 +34,9 @@ function openNav() {
         }
     function openModule() {
         var module = document.getElementById('emailMe-module');
-        module.style.display('block');
-        module.style.width('400px');
-        module.style.height('400px');
+        module.style.display = "block";
+        module.style.width = "400px";
+        module.style.height = "400px";
     }
 window.onblur = function () { document.title = 'Please Come Back!'; }
 window.onfocus = function () { document.title = 'Copy That'; }
