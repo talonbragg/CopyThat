@@ -32,12 +32,30 @@ function openNav() {
             document.getElementById("main").style.marginLeft = "0";
             document.body.style.backgroundColor = "white";
         }
-    function openModule() {
-        var module = document.getElementById('emailMe-module');
-        module.style.display = "block";
-        module.style.width = "400px";
-        module.style.height = "400px";
+   var modal = document.getElementById('myModal');
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
+}
 window.onblur = function () { document.title = 'Please Come Back!'; }
 window.onfocus = function () { document.title = 'Copy That'; }
 // smooth scroll
