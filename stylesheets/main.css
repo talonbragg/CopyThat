@@ -105,9 +105,11 @@ table, td {
   padding: 4px;
   transition: .25s;
   z-index: 15;
+  
 }
 .toggle-button:hover {
   cursor: pointer;
+  color: #f5f5f5;
 }
 .toggle-button .menu-bar {
   position: absolute;
