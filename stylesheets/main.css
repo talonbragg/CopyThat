@@ -8,6 +8,10 @@ html, body {
   float: center;
   transition: all 0.5s ease;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato';
+  font-weight: bold;
+}
 h1 {
   font-size: 50px;
 }
