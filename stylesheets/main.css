@@ -285,7 +285,9 @@ table, td {
     cursor: pointer;
 }
 #carbonads {
-  position: relative;
+  	top: 95%;
+	left: 95%;
+	position: fixed;
 	color: #606c76;
 	font-family: 'Quicksand';
 	line-height: 1.6;
