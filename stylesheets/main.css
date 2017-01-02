@@ -284,3 +284,16 @@ table, td {
     text-decoration: none;
     cursor: pointer;
 }
+#carbonads {
+  position: relative;
+	color: #606c76;
+	font-family: 'Quicksand';
+	line-height: 1.6;
+	margin: 0 auto;
+	max-width: 30rem;
+	background: #fff;
+	background: rgba(256, 256, 256, .8);
+	border-radius: 4px;
+	overflow: hidden;
+	padding: 1.5rem;
+}
