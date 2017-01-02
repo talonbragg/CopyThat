@@ -16,7 +16,7 @@ function openNav() {
         open = false;
                     document.getElementById("mySidenav").style.width = "0";
                     document.body.style.backgroundColor = "white";
-                    time = setTimeou('showLink', 1000);
+                    time = setTimeout('showLink', 1000);
                     function showLink() {
                         $('#navLink').slideIn('slow');
                     }
