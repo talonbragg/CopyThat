@@ -110,11 +110,12 @@ table, td {
   padding: 4px;
   transition: .25s;
   z-index: 15;
-  
+  transition: .2s ease-out;
 }
 .toggle-button:hover {
   cursor: pointer;
-  background-color: #f5f5f5;
+  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+  transform: translate3d(0,-2px,0);
 }
 .toggle-button .menu-bar {
   position: absolute;
